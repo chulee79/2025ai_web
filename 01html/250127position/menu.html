@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* reset  */
+        *{margin: 0;padding: 0;box-sizing:border-box ;}
+        li{list-style: none;}
+        a:link,a:visited{color: black;text-decoration: none;}
+
+
+        body{
+           font-size:12px;
+           font-family: "Noto Sans KR", serif;
+        }
+
+        header.wrapper{
+            /* background-color: pink; */
+            height: 72px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap{
+            width: 1200px;
+            margin: 0 auto;
+            /* background-color: aqua; */
+            display: flex;
+            justify-content:space-between
+        }
+
+        .menu > ul{
+            display: flex;
+            font-size: 16px;
+            gap:30px
+        }
+
+        .menu > ul > li{
+            /* background-color: yellow; */
+            
+        }
+
+        .menu > ul > li > a{
+            display: block;
+            padding: 10px;
+            /* background-color: pink; */
+        }
+
+        .logo > a > img{height: 27px;}
+
+        h1.logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: white; */
+        }
+        .util{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+        .visual{
+            background-color: #02d7ff;
+            height: 640px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+            
+        }
+
+        .container h2{text-align: center;margin-bottom: 10px;}
+        .container .h2_desc{text-align: center;}
+
+
+        /* common  */
+        h2{font-size: 32px;}
+        h3{font-size: 26px;letter-spacing: -0.6px;line-height: 1.4;}
+        h4{font-size: 36px;}
+        .h2_desc{font-size: 18px;}
+        .h3_more{font-size: 16px;}
+
+        /* padding * < tag < class < id < inline style < !important  */
+        .py20{padding: 20px 0 !important;}
+        .py30{padding: 30px 0 !important;}
+        .py40{padding: 40px 0 !important;}
+
+        .mb40{margin-bottom: 40px !important;}
+        .mb50{margin-bottom: 50px !important;}
+    </style>
+</head>
+<body>
+    <header class="wrapper"> <!-- display:block bgw -->
+        <div class="wrap"> <!-- w1200 m0auto dflex-->
+            <h1 class="logo">
+                <a href="#"><img src="img_logo.png" alt=""></a>
+            </h1>
+            <nav class="menu">
+                <ul> <!-- display:flex -->
+                    <li>
+                        <a href="#">카카오생활</a>
+                    </li>
+                    <li>
+                        <a href="#">크루이야기</a>
+                    </li>
+                    <li>
+                        <a href="#">진행중공고</a>
+                    </li>
+                    <li>
+                        <a href="#">지원안내</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="util">
+                <a href="#">로그인</a>
+            </div>
+        </div>
+    </header>
+    <div class="visual">
+        <img src="banner01.png" alt="">
+    </div>
+    <div class="container py40 mb50">
+        <h2>Join the krew</h2>
+        <p class="h2_desc">
+            카카오 크루는 우리의 일상을 더 좋게 만들고 싶은 멋진 동료입니다.<br>
+            다양한 생각을 자유롭게 나누며, 언제나 놀라운 결과를 만들어내죠.<br>
+            당신도 세상을 바꾸고 싶나요? 카카오로 오세요!!
+        </p>
+    </div>
+    <div class="container">
+        <h4>😃 관심있는 공고를 찾아보세요</h4>
+        <ul class="content">
+            <li>
+                <img src="icon_img01.png" alt="">
+                <h3>100%리얼 스토리<br>카카 오크루 이야기</h3>
+                <span class="h3_more">크루이야기 살펴보기</span>
+            </li>
+           
+        </ul>
+    </div>
+</body>
+</html>
