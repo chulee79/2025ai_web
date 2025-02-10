@@ -1,0 +1,4 @@
+*{margin: 0;padding: 0; box-sizing: 0;}
+li{list-style: none;}
+a:link{text-decoration: none;color: #333;}
+a:visited{color: #222;}

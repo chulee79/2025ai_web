@@ -1,0 +1,10 @@
+h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+h3.dec{
+    font-size: 24px;
+}
+/* color */
+.bgsky{background-color: skyblue;}
+.bgred{background-color: red}
